@@ -2,7 +2,7 @@
 
 PyTorch implementation of **Deep Diffusion Models for Seismic Processing**.
 
-<p align="left"><img width="100%" src="images/demultiple_img.PNG" /></p>
+<p align="left"><img width="70%" src="images/demultiple_img.PNG" /></p>
 
 ## Overview
 Seismic data processing involves techniques to deal with undesired effects that occur during acquisition and pre-processing.These effects mainly comprise coherent artefacts such as multiples, non-coherent signals such as electrical noise, and loss of signal information at the receivers that leads to incomplete traces. In this work, we introduce diffusion models for three seismic applications: demultiple, denoising and interpolation.
