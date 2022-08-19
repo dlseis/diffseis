@@ -19,7 +19,7 @@ visualization.ipynb
 ```
 
 ## Training Code
-Before starting the training you should specify in the run.py file, the mode, the dataset folder and the image size. Then:
+Before starting the training you should specify in the run.py file: the <i>mode</i>, the <i>dataset folder</i> and the <i>image size</i>. Then:
 ```bash
 python run.py
 ```
