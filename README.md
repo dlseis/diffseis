@@ -5,24 +5,22 @@ PyTorch implementation of **Deep Diffusion Models for Seismic Processing**.
 <p align="left"><img width="50%" src="images/demultiple_img.PNG" /></p>
 
 ## Overview
-Seismic data processing involves techniques to deal with undesired effects that occur during acquisition and pre-processing.These effects mainly comprise coherent artefacts such as multiples, non-coherent signals such as electrical noise, and loss of signal information at the receivers that leads to incomplete traces. In this work, we introduce diffusion models for three seismic applications: demultiple, denoising and interpolation.
+Seismic data processing involves techniques to deal with undesired effects that occur during acquisition and pre-processing. These effects mainly comprise coherent artefacts such as multiples, non-coherent signals such as electrical noise, and loss of signal information at the receivers that leads to incomplete traces. In this work, we introduce diffusion models for three seismic applications: <b>demultiple</b>, <b>denoising</b> and <b>interpolation</b>.
 
 <p align="left"><img width="60%" src="images/demultiple_img2.PNG" /></p>
 <p align="left"><img width="60%" src="images/denoising_img.PNG" /></p>
 <p align="left"><img width="60%" src="images/inter_img.PNG" /></p>
 
-## Code
-The repository contains the following files:
- <ul>
-  <li> run.py -> This file contains the specifications</li>
-  <li> diffusion.py -> This file contains the diffusion fucntions</li>
-  <li> unet.py -> This file contains the diffusion model (architecture)</li>
-  <li> visualization.ipnyb -> This Jupyter notebook can run inference and displys the results</li>
-  <li> dataset -> This folder contains a few multiple-infested gathers and their multiple-free conuterparts</li>
-  
-</ul> 
 
-To use the code, we only need to run the. 
+## Testing Code on Demultiples
+Download [Pretrained Model (model_test.pt)](https://osf.io/n2bs9/?view_only=77d7313d3f2d44e18dc0ee4005c3bfa4).
+Run inference on <i>visualization.ipynb</i>
+
+## Training Code
+Before starting the training you should specify in the run.py file, the mode, the dataset folder and the image size. Then:
+```bash
+python run.py
+```
 
 Note that you might need to installl thrid party libraries.
 
