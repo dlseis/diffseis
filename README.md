@@ -13,8 +13,10 @@ Seismic data processing involves techniques to deal with undesired effects that 
 
 
 ## Testing Code on Demultiples
-Download [Pretrained Model (model_test.pt)](https://osf.io/n2bs9/?view_only=77d7313d3f2d44e18dc0ee4005c3bfa4).
-Run inference on <i>visualization.ipynb</i>
+Download [Pretrained Model (model_test.pt)](https://osf.io/n2bs9/?view_only=77d7313d3f2d44e18dc0ee4005c3bfa4). Run inference on:
+```bash
+visualization.ipynb
+```
 
 ## Training Code
 Before starting the training you should specify in the run.py file, the mode, the dataset folder and the image size. Then:
